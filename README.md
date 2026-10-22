@@ -1,44 +1,19 @@
-[![Built with TideCloak](https://tide.org/badges/built-with-tidecloak.svg)](https://tide.org/tidecloak?utm_source=github&utm_medium=readme&utm_campaign=unlocked)
+# RMIT Hackathon - Challenge 2 (Tide)
 
-## Project overview
+## 1. Problem
+Traditional authentication and access systems rely on central trust bottlenecks (such as single admin accounts or centralized databases), creating single points of failure and significant security risks.
 
-_One-sentence description of your project._
+## 2. Solution
+Our prototype utilizes **TideCloak** to implement **Emergent Authority**, ensuring secure, decentralized identity authentication and zero-trust access control without relying on a centralized authority.
 
-Built with [TideCloak](https://tide.org/tidecloak?utm_source=github&utm_medium=readme&utm_campaign=unlocked).
+## 3. Tech Stack
+- **Frontend**: Next.js (React)
+- **Security & Auth**: TideCloak SDK
 
-### 1. Vision & originality
+## 4. How to Run
+1. Clone the repository:
+   ```bash
+   git clone <YOUR_REPOSITORY_URL>
+   	
 
-<!-- What new product, service, experience or way of working are you proposing? What makes your idea distinctive? -->
-
-### 2. Trust constraint insight
-
-<!-- What is difficult, risky or impossible today because trust, privacy or security gets in the way? Explain what becomes possible when that constraint is removed. -->
-
-### 3. Value & impact
-
-<!-- Who would benefit, and how would their lives or work improve? Give a concrete example of why this matters. -->
-
-### 4. Why TideCloak matters
-
-<!-- How does your application use TideCloak, and how does that integration help enable your idea? Connect the technology to the possibility you are demonstrating. -->
-
-### 5. Prototype & storytelling
-
-<!-- What does your prototype demonstrate today? Describe the key interaction judges should look for. -->
-
-## Setup
-
-<!-- Sample Instructions -->
-
-<!-- Download the sourcecodes.zip from GitHub, unzip into a folder called fairenrol -->
-cd "fairenrol"
-<!-- Open Docker Desktop -->
-docker run -d -p 8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=password tideorg/tidecloak-dev:latest
-<!-- Open http://localhost:8080/, create new app, set URIs, download tidecloak.json to the public folder -->
-<!-- Install all deps -->
-npm.cmd install
-npm.cmd run dev
-<!-- Open http://localhost:5173/ -->
-<!-- Click Login with TideCloak -->
-…
 
